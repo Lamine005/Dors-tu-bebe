@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PageAdmin">
+
+    <ImageView
+        android:id="@+id/backgroundImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pageadmin"
+        android:contentDescription="@string/background_image_description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PageAdmin"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:id="@+id/textViewDayNightMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="226dp"
+            android:text="Mode Jour/Nuit" />
+
+        <Spinner
+            android:id="@+id/spinnerDayNightMode"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginStart="161dp"
+            android:layout_marginTop="225dp"
+            android:layout_toEndOf="@+id/textViewDayNightMode" />
+
+        <Spinner
+            android:id="@+id/spinnerDayNightMode2"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginStart="205dp"
+            android:layout_marginTop="100dp"
+            android:layout_toEndOf="@+id/textView21" />
+
+        <TextView
+            android:id="@+id/textViewLanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewDayNightMode"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="86dp"
+            android:text="Langues" />
+
+        <Spinner
+            android:id="@+id/spinnerLanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_below="@+id/spinnerDayNightMode"
+            android:layout_marginStart="207dp"
+            android:layout_marginTop="80dp"
+            android:layout_toEndOf="@+id/textViewLanguage" />
+
+        <TextView
+            android:id="@+id/textViewAddModifyChildName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewLanguage"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="76dp"
+            android:text="Ajouter ou modifier un nom d'enfant" />
+
+        <Spinner
+            android:id="@+id/spinnerAddModifyChildName"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_below="@+id/spinnerLanguage"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="73dp"
+            android:layout_toEndOf="@+id/textViewAddModifyChildName" />
+
+        <TextView
+            android:id="@+id/textViewNotifications"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewAddModifyChildName"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="75dp"
+            android:text="Notifications" />
+
+        <Spinner
+            android:id="@+id/spinnerNotifications"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_below="@+id/spinnerAddModifyChildName"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="65dp"
+            android:layout_toEndOf="@+id/textViewNotifications" />
+
+        <TextView
+            android:id="@+id/textViewDeleteProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewNotifications"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="65dp"
+            android:text="Supprimer un profil" />
+
+        <Spinner
+            android:id="@+id/spinnerDeleteProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_below="@+id/spinnerNotifications"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="60dp"
+
+            android:layout_toEndOf="@+id/textViewDeleteProfile" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="100dp"
+            android:text="TextView" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

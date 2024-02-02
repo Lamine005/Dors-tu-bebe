@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "649235711963",
+    "project_id": "dors-tu-bebe",
+    "storage_bucket": "dors-tu-bebe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649235711963:android:23ce38ac94eb9bd33e49fe",
+        "android_client_info": {
+          "package_name": "com.example.dorstu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6om4ryxccb8HajZCo9ZDYV6zjOo1qx54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649235711963:android:7cde7123b368894a3e49fe",
+        "android_client_info": {
+          "package_name": "com.example.dtb_accountcreation__login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6om4ryxccb8HajZCo9ZDYV6zjOo1qx54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,103 @@
+<resources>
+    <!-- Ressources pour le Spinner de l'âge -->
+
+    <style name="SpinnerTextStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <string-array name="age_options">
+        <item>0-1 ans</item>
+        <item>2-3 ans</item>
+        <item>4-5 ans</item>
+        <item>6-7 ans</item>
+        <item>8-9 ans</item>
+    </string-array>
+
+    <!-- Ressources pour le Spinner du personnage principal -->
+    <string-array name="character_options">
+        <item>Aléatoire</item>
+        <item>Enfant</item>
+        <item>Animal</item>
+        <item>Magicien</item>
+        <item>Sorcière</item>
+        <item>Robot</item>
+        <item>Extraterrestre</item>
+        <item>Pirate</item>
+        <item>Aventurier</item>
+        <item>Princesse</item>
+        <item>Fées</item>
+        <item>Prince</item>
+        <item>Dragon</item>
+        <item>Fantôme</item>
+        <item>Super-Héros</item>
+        <item>Personnalisé</item>
+    </string-array>
+
+    <!-- Ressources pour le Spinner du lieu -->
+    <string-array name="location_options">
+        <item>Aléatoire</item>
+        <item>Château</item>
+        <item>Espace</item>
+        <item>Île Déserte</item>
+        <item>Forêt</item>
+        <item>Océans</item>
+        <item>Village</item>
+        <item>Jungle</item>
+        <item>Monde Imaginaire</item>
+        <item>École</item>
+        <item>Cirque</item>
+        <item>Personnalisé</item>
+    </string-array>
+
+    <!-- Ressources pour le Spinner du thème -->
+    <string-array name="theme_options">
+        <item>Aléatoire</item>
+        <item>Aventures</item>
+        <item>Nature</item>
+        <item>Contes de Fées</item>
+        <item>Amitié</item>
+        <item>Courage</item>
+        <item>Voyages</item>
+        <item>Mystères</item>
+        <item>Traditions</item>
+        <item>Science</item>
+        <item>Valeurs Morales</item>
+        <item>Personnalisé</item>
+    </string-array>
+    <string name="app_name">Dorstu</string>
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="email">Adresse e-mail</string>
+    <string name="password">Mot de passe</string>
+    <string name="create_account">Créer un compte</string>
+    <string name="les_grok">Les Grok</string>
+    <string name="fait_par">Fait par :</string>
+    <string name="background_description">Description de l\'arrière-plan</string>
+    <string name="logo_description">Description du logo</string>
+    <string name="email_hint">Courriel</string>
+    <string name="password_hint">Mot de passe</string>
+    <string name="remember_me">Se souvenir de moi</string>
+    <string name="login">Entrez</string>
+    <string name="no_account">Pas de compte?</string>
+    <string name="create_account_prompt">Veuillez svp vous en créer un gratuitement !</string>
+    <string name="desc_background">Description du fond d\'écran</string>
+    <string name="desc_welcome">Description de l\'image de bienvenue</string>
+    <string name="notifications">Notifications</string>
+    <string name="font_size">Taille de la police</string>
+    <string name="day_night_mode">Mode Jour/Nuit</string>
+    <string name="privacy_control">Autre?</string>
+    <string name="language">Langue</string>
+    <string name="background_image_description">Description de l\'arrière-plan de la page admin</string>
+    <string name="theme_histoire">Thème de l\'histoire :</string>
+    <string name="generer_histoire_personnalisee">Générer une histoire personnalisée</string>
+    <string name="archives">Archives</string>
+    <string name="parametres">Paramètres</string>
+    <string name="demarrer_histoire_aleatoire">Démarrer une histoire aléatoire</string>
+    <string name="personnage_principal">Personnage principal :</string>
+    <string name="lieu">Lieu :</string>
+    <string name="description_image">Description de l\'image</string>
+    <string name="add_or_modify_child_name">Ajouter ou modifier un nom d\'enfant</string>
+    <string name="delete_profile">Supprimer un profil</string>
+    <string name="th_me">Thème:</string>
+    <string name="ge">Âge:</string>
+</resources>

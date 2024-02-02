@@ -1,0 +1,24 @@
+<!-- button_border.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Contour bleu -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <!-- Épaisseur du contour -->
+            <stroke
+                android:width="4dp"
+                android:color="#EFA2D6" /> <!-- Couleur du contour -->
+            <!-- Rayon des coins arrondis -->
+            <corners android:radius="20dp" />
+        </shape>
+    </item>
+
+    <!-- Intérieur transparent -->
+    <item android:id="@android:id/content">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <!-- Rayon des coins arrondis -->
+            <corners android:radius="20dp" />
+        </shape>
+    </item>
+</layer-list>
