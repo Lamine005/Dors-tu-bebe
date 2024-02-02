@@ -273,7 +273,7 @@ class PageHistoire : AppCompatActivity() {
                 val header: MutableMap<String, String> = HashMap()
                 header["Content-Type"] = "application/json"
                 header["Authorization"] =
-                    "Bearer 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" ///////////////////////////////////////////////////////// API KEY
+                    "Bearer API KEY" ///////////////////////////////////////////////////////// API KEY
                 return header
             }
 
@@ -296,7 +296,7 @@ class PageHistoire : AppCompatActivity() {
         lifecycleScope.launch {
             try {
                 val openai = OpenAI(
-                    token = "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", ////////////////////////////////////////////////////////////////////////////////////////////API KEY
+                    token = "API KEY", ////////////////////////////////////////////////////////////////////////////////////////////API KEY
                     timeout = Timeout(socket = 60.seconds),
                 )
 
